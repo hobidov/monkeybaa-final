@@ -1,6 +1,6 @@
-streamlit
 pandas
-numpy
+streamlit
+openpyxl
+requests
 plotly
 python-dotenv
-requests
