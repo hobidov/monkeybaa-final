@@ -371,7 +371,7 @@ EXECUTIVE SUMMARY (AI GENERATED)
 
 {ai_summary}
 
-Survey responses from {summary_name or 'the uploaded survey'} indicate stronger immediate outcomes in {lower(strongest['label'])} and weaker performance in {lower(weakest['label'])}. Overall impact is {analytics['overall']}%, showing that both social and cultural impact streams now include spark, growth, and horizon proxy measures.
+Survey responses from {summary_name or 'the uploaded survey'} indicate stronger immediate outcomes in {lower(strongest['label'])} and weaker performance in {lower(weakest['label'])}. Overall impact is {analytics['overall']}%, showing that both social and cultural impact streams now include spark, growth, and horizon proxy measures."""
 
 def load_uploaded_file(uploaded_file):
     name = uploaded_file.name.lower()
