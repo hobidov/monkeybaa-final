@@ -373,30 +373,6 @@ EXECUTIVE SUMMARY (AI GENERATED)
 
 Survey responses from {summary_name or 'the uploaded survey'} indicate stronger immediate outcomes in {lower(strongest['label'])} and weaker performance in {lower(weakest['label'])}. Overall impact is {analytics['overall']}%, showing that both social and cultural impact streams now include spark, growth, and horizon proxy measures.
 
-Key Findings
-
-- Strongest dashboard area: {strongest['label']} ({strongest['value']}%)
-- Weakest dashboard area: {weakest['label']} ({weakest['value']}%)
-- Social Spark scored {social_spark['value']}%, Social Growth scored {social_growth['value']}%, and Social Horizon scored {social_horizon['value']}%
-- Cultural Spark scored {cultural_spark['value']}%, Cultural Growth scored {cultural_growth['value']}%, and Cultural Horizon scored {cultural_horizon['value']}%
-
-Social Outcomes (Spark → Growth → Horizon)
-
-- Social Spark is performing at {social_spark['value']}%
-- Social Growth is performing at {social_growth['value']}%
-- Social Horizon is performing at {social_horizon['value']}%
-
-Cultural Outcomes (Spark → Growth → Horizon)
-
-- Cultural Spark is performing at {cultural_spark['value']}%
-- Cultural Growth is performing at {cultural_growth['value']}%
-- Cultural Horizon is performing at {cultural_horizon['value']}%
-
-Recommendation
-
-- Prioritise improvement in {lower(weakest['label'])}
-- Overall Impact: {analytics['overall']}%"""
-
 def load_uploaded_file(uploaded_file):
     name = uploaded_file.name.lower()
     if name.endswith(".csv"):
